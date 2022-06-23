@@ -1,0 +1,216 @@
+*{  
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;  
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+header{
+    padding: 10px 0 10px 20px;
+}
+    .logo{
+        width: 50px;
+    }
+        .l1{
+            font-family: 'Franklin Gothic black';
+            font-size: 25px;
+            text-align: center;
+        }
+        .l2{
+            font-family: 'Franklin Gothic black';
+            text-align: center;
+        }
+
+
+body{
+    background-color: #222;
+}
+.cuerpob{
+    margin: 0 20% 0 20%;
+}
+
+.cajaformulario{
+    display: flex;
+    
+}
+    .formulario{
+        width: 50%;
+        background-color: rgb(211, 211, 211);
+        border-radius: 10px;
+    }
+        .formulario b{
+            display: block;
+            text-align: center;
+            margin: 20px 15px 15px 15px;
+            font-size: 18px;
+            color: #222;
+        }
+        .formulariotext{
+            display: flex;
+            margin: 0 10% 0 10%;
+        }
+            .flista{
+                width: 40%;
+            }
+                .flista ul li{
+                    font-size: 14px;
+                    margin: 0;
+                    padding: 22px 0 22px 0;
+                    color: #222;
+                    list-style: none;
+                }
+            .ftext{
+                width: 60%;
+            }
+                .ftext form{
+                    
+                }
+                    .ftext form input{
+                        width: 90%;
+                        margin: 15px 0 15px 0;
+                        padding: 5px;
+                        color: #222;
+                        background-color: rgba(245, 222, 179, 0);
+                        border-top: 0;
+                        border-left: 0;
+                        border-right: 0;
+                    }
+                    .ftext form input::placeholder{
+                        border: solid 5px;
+                    }
+                    #enviar{
+                        width: 100px;
+                        font-weight: bold;
+                        color: #222;
+                        background-color: rgb(194, 194, 194);
+                        border-bottom: 0;
+                        border-radius: 5px;   
+                    }
+                    #enviar:hover{
+                        color: rgb(0, 0, 0);
+                        font-weight: bold;
+                        background-color: rgb(255, 191, 64);
+                    }
+        .formulario p{
+            margin: 5px 10% 5px 10%;
+            font-size: 12px;
+            color: #222;
+        }
+        .formulario a{
+            font-size: 12px;
+            color: #222;
+        }
+    .personaje{
+        width: 50%;
+    }
+        h1{
+            font-size: 24px;
+            text-align: center;
+        }
+        .personaje img{
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: -4px;
+        }
+
+
+.sectionubi{
+    width: 60%;
+    margin: 70px auto 70px auto;
+}
+    .sectionubi div{
+        display: flex;
+    }
+        .ubizq{
+            width: 50%;
+            
+            flex-wrap: wrap;
+        }
+            .ubizq b{
+                
+                text-align: center;
+                margin: auto auto auto 0;
+            }
+            .ubizq p{
+                font-size: 12px;    
+            }
+        .ubider{
+            width: 50%;
+        }
+            .ubider img{
+                width: 70%;
+                border-radius: 10px;
+                margin: 5% auto 5% auto;
+            }
+        .botonubi{
+            display: block;
+            
+        }
+            .botonubi button{
+                margin: auto;
+                padding: 5px 20px 5px 20px;
+                background-color: blue;
+                border-radius: 5px;
+            }
+
+
+
+.sectionfotos{
+    height: 720px;
+    margin: 30px 10px 30px 10px;
+    overflow: hidden;
+}
+    .slide{
+        width: 100%;
+    }
+        .imgtext{
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.503);
+            padding: 50px;
+            margin-right: 10px;
+            margin-top: 450px;
+            
+        }
+            .imgtext b{
+                font-size: 21px;
+            }
+            .imgtext p{
+                font-size: 16px;
+                color: rgb(201, 201, 201);
+                padding-top: 20px;
+            }
+    .imgt{
+        width: 100%;
+    }
+
+    /* .s02, .s03{
+        c
+    } */
+
+
+.sectionulti{
+    width: 100%;
+    text-align: center;
+    margin: 150px auto 150px auto;
+}
+    h2{
+        font-size: 21px;
+        font-weight: 700;
+    }
+    .sectionulti a{
+        font-size: 12px;
+        font-weight: 100;
+        color: rgb(255, 213, 0);
+    }
+
+footer{
+    background-color: rgb(34, 75, 255);
+}
+    footer div{
+        width: 50%;
+        height: 30px;
+        margin: auto;
+    }
+    footer a{
+        margin: auto 50px auto 50px;
+    }
